@@ -11,6 +11,12 @@ public class UserHomePage {
 	@FindBy(xpath="/html/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a")
 	WebElement userNameDisplayed;
 	
+	@FindBy(css="div[class=\"listbox\"]>ul>li>a[href=\"/books\"]")
+	WebElement bookTabOnLeftBar;
+	
+	@FindBy(xpath="//*[@id=\"topcartlink\"]/a/span[1]")
+	WebElement shoppingCartTab;
+	
 	public UserHomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		this.driver = driver;
@@ -32,6 +38,18 @@ public class UserHomePage {
 			return true;
 		else
 			return false;
+	}
+	
+	public BooksPage clickOnLeftBarBook()
+	{
+		bookTabOnLeftBar.click();
+		return new BooksPage(driver);
+	}
+	
+	public ShoppingCartPage clickOnShoppingCart()
+	{
+		shoppingCartTab.click();
+		return new ShoppingCartPage(driver);
 	}
 
 }

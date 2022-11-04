@@ -7,6 +7,8 @@
       <class name="com.cjc.dws.webApp.tests.SignOnTest"/>
       <class name="com.cjc.dws.webApp.tests.RegistrationPageTest"/>
       <class name="com.cjc.dws.webApp.tests.HomePageTest"/>
+      <class name="com.cjc.dws.webApp.tests.BookPageTest"/>
+      <class name="com.cjc.dws.webApp.tests.CompleteOrderTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

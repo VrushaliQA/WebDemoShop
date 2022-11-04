@@ -3,6 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.cjc.dws.webApp.tests.CompleteOrderTest">
+        <methods>
+          <include name="orderTest"/>
+          <include name="tearDownRegistrationPage"/>
+          <include name="initBookPage"/>
+        </methods>
+      </class> <!-- com.cjc.dws.webApp.tests.CompleteOrderTest -->
       <class name="com.cjc.dws.webApp.tests.RegistrationPageTest">
         <methods>
           <include name="tearDownRegistrationPage"/>

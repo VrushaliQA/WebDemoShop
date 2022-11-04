@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Nov 03 20:15:09 IST 2022</td>
+<td>Started on:</td><td>Fri Nov 04 15:20:40 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>40 seconds (40078 ms)</td>
+<tr><td>Total time:</td><td>96 seconds (96759 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -98,8 +98,8 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at com.cjc.dws.webApp.tests.RegistrationPageTest.gettingRegister(RegistrationPageTest.java:67)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1228777520", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1228777520'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace379776337", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace379776337'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -136,8 +136,94 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>2</td>
-<td>com.cjc.dws.webApp.tests.RegistrationPageTest@3cebbb30</td></tr>
+<td>3</td>
+<td>com.cjc.dws.webApp.tests.RegistrationPageTest@6253c26</td></tr>
+<tr>
+<td title='com.cjc.dws.webApp.tests.CompleteOrderTest.orderTest()'><b>orderTest</b><br>Test class: com.cjc.dws.webApp.tests.CompleteOrderTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;cart-label&quot;&gt;...&lt;/span&gt; is not clickable at point (1005, 7). Other element would receive the click: &lt;div id=&quot;bar-notification&quot; class=&quot;bar-notification success&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=107.0.5304.88)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-H9JGRTT&apos;, ip: &apos;192.168.1.143&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [961d86809c5ba53907ddd02377453c58, clickElement {id=1b4df88b-eebd-4c09-b058-58c9fb06223d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Savi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63217/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (961d86809c5ba53907ddd02377453c58)] -&gt; xpath: //*[@id=&quot;topcartlink&quot;]/a/span[1]]
+Session ID: 961d86809c5ba53907ddd02377453c58
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at com.cjc.dws.webApp.pages.UserHomePage.clickOnShoppingCart(UserHomePage.java:51)
+	at com.cjc.dws.webApp.tests.CompleteOrderTest.orderTest(CompleteOrderTest.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace356347252", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace356347252'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;cart-label&quot;&gt;...&lt;/span&gt; is not clickable at point (1005, 7). Other element would receive the click: &lt;div id=&quot;bar-notification&quot; class=&quot;bar-notification success&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=107.0.5304.88)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-H9JGRTT&apos;, ip: &apos;192.168.1.143&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [961d86809c5ba53907ddd02377453c58, clickElement {id=1b4df88b-eebd-4c09-b058-58c9fb06223d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Savi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63217/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (961d86809c5ba53907ddd02377453c58)] -&gt; xpath: //*[@id=&quot;topcartlink&quot;]/a/span[1]]
+Session ID: 961d86809c5ba53907ddd02377453c58
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at com.cjc.dws.webApp.pages.UserHomePage.clickOnShoppingCart(UserHomePage.java:51)
+	at com.cjc.dws.webApp.tests.CompleteOrderTest.orderTest(CompleteOrderTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>com.cjc.dws.webApp.tests.CompleteOrderTest@4e5ed836</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -147,25 +233,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.cjc.dws.webApp.tests.HomePageTest.clickOnLogin()'><b>clickOnLogin</b><br>Test class: com.cjc.dws.webApp.tests.HomePageTest</td>
+<td title='com.cjc.dws.webApp.tests.SignOnTest.userLogin()'><b>userLogin</b><br>Test class: com.cjc.dws.webApp.tests.SignOnTest</td>
 <td></td>
-<td>0</td>
-<td>com.cjc.dws.webApp.tests.HomePageTest@12aba8be</td></tr>
+<td>1</td>
+<td>com.cjc.dws.webApp.tests.SignOnTest@67f639d3</td></tr>
 <tr>
 <td title='com.cjc.dws.webApp.tests.HomePageTest.checkLogo()'><b>checkLogo</b><br>Test class: com.cjc.dws.webApp.tests.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>com.cjc.dws.webApp.tests.HomePageTest@12aba8be</td></tr>
+<td>com.cjc.dws.webApp.tests.HomePageTest@49049a04</td></tr>
 <tr>
-<td title='com.cjc.dws.webApp.tests.SignOnTest.userLogin()'><b>userLogin</b><br>Test class: com.cjc.dws.webApp.tests.SignOnTest</td>
+<td title='com.cjc.dws.webApp.tests.HomePageTest.clickOnLogin()'><b>clickOnLogin</b><br>Test class: com.cjc.dws.webApp.tests.HomePageTest</td>
 <td></td>
-<td>1</td>
-<td>com.cjc.dws.webApp.tests.SignOnTest@1e1a0406</td></tr>
+<td>0</td>
+<td>com.cjc.dws.webApp.tests.HomePageTest@49049a04</td></tr>
+<tr>
+<td title='com.cjc.dws.webApp.tests.BookPageTest.addTheBook()'><b>addTheBook</b><br>Test class: com.cjc.dws.webApp.tests.BookPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.cjc.dws.webApp.tests.BookPageTest@710636b0</td></tr>
 <tr>
 <td title='com.cjc.dws.webApp.tests.UserHomePageTest.checkDesiredUserLoggedIn()'><b>checkDesiredUserLoggedIn</b><br>Test class: com.cjc.dws.webApp.tests.UserHomePageTest</td>
 <td></td>
 <td>0</td>
-<td>com.cjc.dws.webApp.tests.UserHomePageTest@3b6ddd1d</td></tr>
+<td>com.cjc.dws.webApp.tests.UserHomePageTest@48f278eb</td></tr>
+<tr>
+<td title='com.cjc.dws.webApp.tests.BookPageTest.booksLogoDisplayed()'><b>booksLogoDisplayed</b><br>Test class: com.cjc.dws.webApp.tests.BookPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.cjc.dws.webApp.tests.BookPageTest@710636b0</td></tr>
 </table><p>
 </body>
 </html>

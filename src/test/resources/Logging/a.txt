@@ -1,0 +1,10 @@
+FATAL	2022-11-04 14:06:13,586	0	com.cjc.dws.webApp.tests.BookPageTest	[main]	adding the book
+INFO	2022-11-04 14:20:32,755	0	com.cjc.dws.webApp.tests.BookPageTest	[main]	Added ComputingAndInternet
+INFO	2022-11-04 14:29:43,483	0	com.cjc.dws.webApp.tests.CompleteOrderTest	[main]	Added ComputingAndInternet
+INFO	2022-11-04 14:49:08,260	0	com.cjc.dws.webApp.tests.CompleteOrderTest	[main]	Added ComputingAndInternet
+INFO	2022-11-04 14:57:45,091	1	com.cjc.dws.webApp.tests.CompleteOrderTest	[main]	Added ComputingAndInternet
+INFO	2022-11-04 15:07:10,195	0	com.cjc.dws.webApp.tests.BookPageTest	[main]	Added ComputingAndInternet
+INFO	2022-11-04 15:21:48,337	0	com.cjc.dws.webApp.tests.BookPageTest	[main]	Added ComputingAndInternet
+INFO	2022-11-04 15:22:15,697	27360	com.cjc.dws.webApp.tests.CompleteOrderTest	[main]	Added ComputingAndInternet
+INFO	2022-11-04 15:23:55,819	0	com.cjc.dws.webApp.tests.CompleteOrderTest	[main]	Added ComputingAndInternet
+INFO	2022-11-04 17:25:17,681	0	com.cjc.dws.webApp.tests.CompleteOrderTest	[main]	Added ComputingAndInternet
